@@ -18,6 +18,7 @@ var todoApp = function() {
   var doneItem = function(event) {
     var item = document.querySelector('#item-' + event.target.value);
     item.className = 'done';
+    document.querySelector('input[data-done="' + event.target.value + '"]').disabled = true;
   };
   UI.button.addEventListener('click', function(event) {
     event.preventDefault();
