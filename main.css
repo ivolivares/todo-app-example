@@ -1,0 +1,82 @@
+body {
+  background: #e4e4e4;
+  font-family: 'Exo', sans-serif;
+  font-weight: normal;
+  padding: 5% 10%;
+}
+section {
+  margin: 0px auto;
+  width: 90%;
+  background: #FFF;
+  padding: 20px;
+  border-radius: 2px;
+  box-shadow: 0px 0px 10px #CCC;
+}
+
+input[type="text"] {
+  width: 60%;
+  padding: 10px 5px;
+  border-radius: 4px;
+  background: #FFF;
+  border: 1px solid #CCC;
+  display: inline-block;
+}
+
+input[type="text"]:focus {
+  outline: 2px solid #EFEFEF;
+}
+
+input + button {
+  width: 30%;
+  padding: 6px 5px;
+  font-size: 18px;
+  display: inline-block;
+  border-radius: 4px;
+  background: #FFF;
+  border: 1px solid #CCC;
+  line-height: 18px;
+}
+input + button:hover,
+input + button:focus {
+  background: #EFEFEF;
+  outline: none;
+}
+
+ul {
+  list-style: none;
+  margin: 5% auto;
+  padding: 0px;
+}
+
+ul li {
+  border-bottom: 1px solid #EFEFEF;
+  padding: 5px 0px;
+}
+
+ul li:last-child {
+  border-bottom: none;
+}
+
+ul li input[type="checkbox"] {
+  float: left;
+  margin: 5px 10px 0px 0px;
+  display: inline-block;
+}
+
+ul li button {
+  width: 20px;
+  border-radius: 50%;
+  background: rgb(251, 0, 0);
+  border: 1px solid #FFF;
+  float: right;
+  color: #FFF;
+  height: 20px;
+  font-weight: 700;
+}
+ul li button:hover {
+  border: 1px solid #000;
+}
+
+ul li.done {
+  text-decoration: line-through;
+}
